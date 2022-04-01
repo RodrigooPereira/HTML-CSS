@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(100, 82, 82);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;    
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: rgb(172, 63, 63);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(87, 84, 84);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Desporto Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Noticia 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quasi blanditiis beatae doloremque consectetur exercitationem debitis, aut iste nobis ipsum fuga, asperiores ab eius repellendus, quae fugit sit tempora quibusdam!</p>
+                <aside>
+                    <p>Artigo escrito por Rodrigo Pereira</p>
+                </aside>
+            </article>
+            <article>
+                <h1>Noticia 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur reiciendis placeat quae itaque voluptas assumenda officiis nisi libero possimus? Totam recusandae quaerat similique est odio qui aut ipsam hic dolore!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo Pereira</p>
+    </footer>
+</body>
+</html>

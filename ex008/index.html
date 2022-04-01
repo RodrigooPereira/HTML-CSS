@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto</title>
+</head>
+<body>
+    <h1>Formatações de texto</h1>
+    <h2>Código C++</h2>
+    <pre>
+        <code>
+#include &lt;iostream&gt;
+
+using namespace std;
+
+main(){
+
+    int i = 0, num[3], maior = 0, menor = 999999999;
+
+    for(i = 0; i < 3; i++){
+        cout << "Digite o numero: \n";
+        cin >> num[i];
+
+        if(num[i] > maior){
+            maior = num[i];
+        }
+
+        if(num[i] < menor){
+            menor = num[i];
+        }
+
+    }
+    cout << "Maior: " << maior << "\n";
+    cout << "Menor: " << menor << "\n";
+
+    return 0;
+}
+        </code>
+    </pre>
+    <h2>Citação</h2>
+    <p>Segundo Erich Hartmann: </p>
+    <blockquote>
+        A guerra é um lugar onde jovens que não se conhecem e não se odeiam se matam entre si, por decisões de velhos que se conhecem e se odeiam, mas não se matam.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou a estudar <abbr title="HyperText Markup Language">HTML</abbr></p>
+</body>
+</html>
